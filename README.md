@@ -1,18 +1,3 @@
-# LyricView
-在音乐播放器项目中使用到酷狗音乐展示歌词的效果，需要支持修改字体、颜色、渐变色等功能
-
-截图如下(截图效果不是很好,<a href="https://github.com/zhaodecang/LyricView.git">请下载Demo查看</a>)
-
-![](/ScreenShot.gif)
-
-使用方式：
-
-	<com.zdc.lyricdemo.view.LyricView
-			android:id="@+id/lvView"
-			android:layout_width="match_parent"
-			android:layout_height="420dp"
-			android:background="@drawable/base_bg" />
-然后在代码中初始化MediaPlayer、歌词、设置监听：
 
 	public class TtActivity extends Activity implements OnClickListener {
 
